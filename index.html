@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <link rel="shortcut icon" href="logo.png" type="image/x-icon">
+    <script src="script.js" defer></script>
+    <title>Pastelaria do Tio Du</title>
+</head>
+<body>
+    <header class="bar-Top">
+        
+        <div class="logo"></div>
+        <div class="bar-top-fig">
+            <div class="salacionar1">PORÇAÕ</div>
+            <a href="#bediasss"><div class="salacionar1">BABIDAS</div></a>
+            <div class="salacionar1">CACHORRO-QUANTE</div>
+        </div>
+        <a href="#ancora" class="an"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-menu-up" viewBox="0 0 16 16">
+            <path d="M7.646 15.854a.5.5 0 0 0 .708 0L10.207 14H14a2 2 0 0 0 2-2V3a2 2 0 0 0-2-2H2a2 2 0 0 0-2 2v9a2 2 0 0 0 2 2h3.793zM1 9V6h14v3zm14 1v2a1 1 0 0 1-1 1h-3.793a1 1 0 0 0-.707.293l-1.5 1.5-1.5-1.5A1 1 0 0 0 5.793 13H2a1 1 0 0 1-1-1v-2zm0-5H1V3a1 1 0 0 1 1-1h12a1 1 0 0 1 1 1zM2 11.5a.5.5 0 0 0 .5.5h8a.5.5 0 0 0 0-1h-8a.5.5 0 0 0-.5.5m0-4a.5.5 0 0 0 .5.5h11a.5.5 0 0 0 0-1h-11a.5.5 0 0 0-.5.5m0-4a.5.5 0 0 0 .5.5h6a.5.5 0 0 0 0-1h-6a.5.5 0 0 0-.5.5"/>
+          </svg>PEDIDOS</a>
+
+          <div class="barramenu"  onclick="themas()">
+           <div class="logmenu"><svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-list-ul" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M5 11.5a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5m-3 1a1 1 0 1 0 0-2 1 1 0 0 0 0 2m0 4a1 1 0 1 0 0-2 1 1 0 0 0 0 2m0 4a1 1 0 1 0 0-2 1 1 0 0 0 0 2"/>
+          </svg></div>
+          
+          </div>
+    </header>
+  
+
+        <div class="slide">
+            <div class="sli1"></div>
+            <div class="sli2"></div>
+        </div>
+
+        <div class="barradenome">A felicidade está em um pastel bem recheado. Venha experimentar!</div>
+        <form action="" id="menupedidos">
+
+              <!-- aqui -->
+            <div class="telapastel Carne" id="ancora">
+                <div class="fotopastel"></div> 
+                <div class="nomepastel">Pastel de Carne</div>
+                <div class="descricao">
+                     → Carne moída temperada e suculenta
+                </div>
+                <div class="btcoprar">
+                    R$ 10,00
+                </div>
+                <input type="number" name="pastel-carne" class="quantidades" placeholder="Quantidade:" min="0" max="9" >
+            </div>
+        <!-- aqui -->
+
+
+            <div class="telapastel queijo">
+                <div class="fotopastel"></div> 
+                <div class="nomepastel ">Pastel de Queijo</div>
+                <div class="descricao">
+                    → Queijo derretido com temperos especiais
+                </div>
+                <div class="btcoprar">
+                    R$ 10,00
+                </div>
+                <input type="number" name="pastel-queijo" class="quantidades" placeholder="Quantidade:" min="0" max="9">
+            </div>
+        
+
+            <div class="telapastel frango">
+                <div class="fotopastel"></div> 
+                <div class="nomepastel">Pastel de Frango</div>
+                <div class="descricao">
+                    → Frango desfiado com batata
+                </div>
+                <div class="btcoprar">
+                    R$ 10,00
+                </div>
+                <input type="number" name="pastel-frango" class="quantidades" placeholder="Quantidade:" min="0" max="9">
+            </div>
+
+
+            <div class="telapastel Pizza">
+                <div class="fotopastel"></div> 
+                <div class="nomepastel">Pastel de Pizza</div>
+                <div class="descricao">
+                    → Mussarela,presunto, <br>tomate e orégano
+                </div>
+                <div class="btcoprar">
+                    R$ 10,00
+                </div>
+                <input type="number" name="pastel-pizza" class="quantidades" placeholder="Quantidade:" min="0" max="9">
+            </div>
+
+
+
+            <div class="telapastel Bauru">
+                <div class="fotopastel"></div> 
+                <div class="nomepastel">Pastel de Bauru</div>
+                <div class="descricao">
+                    → Presunto,queijo,tomate
+                </div>
+                <div class="btcoprar">
+                    R$ 10,00
+                </div>
+                <input type="number" name="pastel-bauru" class="quantidades" placeholder="Quantidade:" min="0" max="9">
+            </div>
+        
+
+            <div class="telapastel Calabresa">
+                <div class="fotopastel"></div> 
+                <div class="nomepastel">Pastel de Calabresa</div>
+                <div class="descricao">
+                    → Calabresa em cubos
+                </div>
+                <div class="btcoprar">
+                    R$ 10,00
+                </div>
+                <input type="number" name="pastel-Calabresa" class="quantidades" placeholder="Quantidade:" min="0" max="9">
+            </div>
+        
+
+            <div class="telapastel catupiri">
+                <div class="fotopastel"></div> 
+                <div class="nomepastel">Pastel de Frango com catupiri</div>
+                <div class="descricao">
+                    → Catupiri tradicional
+                </div>
+                <div class="btcoprar">
+                    R$ 12,50
+                </div>
+                <input type="number" name="pastel-catupiri" class="quantidades" placeholder="Quantidade:" min="0" max="9">
+            </div>
+
+
+
+            <div class="telapastel Carnecomqueijo">
+                <div class="fotopastel"></div> 
+                <div class="nomepastel">Pastel de Carne com queijo</div>
+                <div class="descricao">
+                    → Catupiri tradicional
+                </div>
+                <div class="btcoprar">
+                    R$ 12,50
+                </div>
+                <input type="number" name="pastel-Carnecomqueijo" class="quantidades" placeholder="Quantidade:" min="0" max="9">
+            </div>
+
+
+            <div class="telapastel Palmito">
+                <div class="fotopastel"></div> 
+                <div class="nomepastel">Pastel de Palmito</div>
+                <div class="descricao">
+                    → Palmito em pedaços
+                </div>
+                <div class="btcoprar">
+                    R$ 13,00
+                </div>
+                <input type="number" name="pastel-Palmito" class="quantidades" placeholder="Quantidade:" min="0" max="9">
+            </div>
+
+
+            <div class="telapastel Palmitocomqueijo">
+                <div class="fotopastel"></div> 
+                <div class="nomepastel">Pastel de Palmito com queijo</div>
+                <div class="descricao">
+                    → Palmito em pedaços com queijo tradicional
+                </div>
+                <div class="btcoprar">
+                    R$ 15,00
+                </div>
+                <input type="number" name="pastel-Palmitocomqueijo" class="quantidades" placeholder="Quantidade:" min="0" max="9">
+            </div>
+
+
+
+            <div class="telapastel Carneseca">
+                <div class="fotopastel"></div> 
+                <div class="nomepastel">Pastel de Carne seca</div>
+                <div class="descricao">
+                    → Carne seca de qualidade
+                </div>
+                <div class="btcoprar">
+                    R$ 13,00
+                </div>
+                <input type="number" name="pastel-Carneseca" class="quantidades" placeholder="Quantidade:" min="0" max="9">
+            </div>
+
+
+            <div class="telapastel Carnesecacomqueijo">
+                <div class="fotopastel"></div> 
+                <div class="nomepastel">Pastel de Carne seca com queijo</div>
+                <div class="descricao">
+                    → Carne seca com queijo tradicional
+                </div>
+                <div class="btcoprar">
+                    R$ 15,00
+                </div>
+                <input type="number" name="pastel-Carnesecacomqueijo" class="quantidades" placeholder="Quantidade:" min="0" max="9">
+            </div>
+        
+
+            <!-- BEBIDAS -->
+<div class="barra-de-babidas">BEBIDAS</div>
+
+            <div class="telapastel cocacola" id="bediasss">
+                <div class="fotopastel"></div> 
+                <div class="nomepastel">Coca-cola</div>
+                <div class="descricao">
+                    → latinha de coca 250ml
+                </div>
+                <div class="btcoprar">
+                    R$ 6.00
+                </div>
+                <input type="number" name="bebida-cocacola" class="quantidades" placeholder="Quantidade:" min="0" max="9">
+            </div>
+        
+            <div class="telapastel skol">
+                <div class="fotopastel"></div> 
+                <div class="nomepastel">Skol-latinha</div>
+                <div class="descricao">
+                    → latinha de skol 250ml
+                </div>
+                <div class="btcoprar">
+                    R$ 6.00
+                </div>
+                <input type="number" name="bebida-skol" class="quantidades" placeholder="Quantidade:" min="0" max="9">
+            </div>
+        
+            <div class="telapastel agua">
+                <div class="fotopastel"></div> 
+                <div class="nomepastel">Agua</div>
+                <div class="descricao">
+                    → agua sem gas
+                </div>
+                <div class="btcoprar">
+                    R$ 2.00
+                </div>
+                <input type="number" name="bebida-agua" class="quantidades" placeholder="Quantidade:" min="0" max="9">
+            </div>
+        
+            <div class="telapastel aguadecoco">
+                <div class="fotopastel"></div> 
+                <div class="nomepastel">Agua de coco</div>
+                <div class="descricao">
+                    → coco fresco
+                </div>
+                <div class="btcoprar">
+                    R$ 9.00
+                </div>
+                <input type="number" name="bebida-aguadecoco" class="quantidades" placeholder="Quantidade:" min="0" max="9">
+            </div>
+        
+
+
+
+            <button type="button" class="brfazerpedido" onclick="con()">Confirmar pedido</button>
+            
+            
+            <button type="button" class="brfazerpedido2" onclick="con()">Confirmar pedido</button>
+            <div class="teladeapresentacaops">
+                <div class="txsss">Na Pastelaria do Tio Du, nossa missão é trazer o sabor e a tradição dos melhores pastéis para você! Com uma variedade de sabores que vão desde os clássicos, como queijo e carne, até opções especiais e inusitadas, nossa pastelaria é o lugar perfeito para quem busca qualidade e sabor incomparáveis. Cada pastel é preparado com ingredientes frescos e de alta qualidade, garantindo uma experiência deliciosa a cada mordida. Venha nos visitar e descubra por que nossos pastéis são os mais queridos da região! Estamos prontos para atender você com carinho e aquele toque especial que só o Tio Du sabe.</div>
+                <div class="telaspreee"></div>
+            </div>
+            <div class="teledeconfirmacao" id="confirme">
+                <div class="telaform"></div>
+                <h2 class="tx">CONFIRMAR PEDIDO ?</h2>
+                <button type="button" class="btsim" onclick="thepas(),con()">SIM</button>
+                <button type="button" class="btnao" onclick="con()">CANCELAR</button>
+            </div>
+
+
+            <div class="teladerelco" id="endercotelacli">
+                <input type="text" id="nomeCliente" name="nomeCliente" placeholder="Seu nome:" required class="nomedocliente">
+                <input type="text" id="enderecoCliente" name="enderecoCliente" placeholder="Endereço para entrega:" required class="enderecodocliente">
+                <input type="text" id="cidade" name="cidade" placeholder="Informe sua cidade:" required class="city">
+                <input type="number"  id="numeradaresidencia"  name="numeradaresidencia" required  class="rnumer" placeholder="Numero da residencia:">
+                <input type="text" id="complemento" name="complemento" required class="complemento" placeholder="Complemento:" autocomplete="off">
+                <input type="number"  id="cep"  name="cep" required  class="cep" placeholder="Informe o CEP:">
+                <button type="button" class="btpedido" onclick="fazerPedido() ">FAZER PEDIDO</button>
+                <button type="button" class="btcancel" onclick="thepas()">CANCELAR</button>
+            </div>
+
+
+            
+        </form>
+        
+    </main>
+    <div class="menu1" id="menuteble1">
+        <div class="lg" onclick="themas()"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-chevron-bar-left" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M11.854 3.646a.5.5 0 0 1 0 .708L8.207 8l3.647 3.646a.5.5 0 0 1-.708.708l-4-4a.5.5 0 0 1 0-.708l4-4a.5.5 0 0 1 .708 0M4.5 1a.5.5 0 0 0-.5.5v13a.5.5 0 0 0 1 0v-13a.5.5 0 0 0-.5-.5"/>
+          </svg></div>
+        <div class="opcao" onclick="card()">CARDAPIO</div>
+        <div class="opcao" onclick="loca()">LOCAL</div>
+        <div class="opcao" onclick="suport()">SUPORTE</div>
+    </div>
+
+    <div id="mensagemmm">fsddfdfges</div>
+
+    <footer>
+        <div class="bar-bottom"></div>
+        <p class="tcsds">&copy;PASTELARIA-TIO-DU 2024</p>
+        <div class="teladeifo1">
+            <div class="loc">LOCAL:Rua Avenida Marginal número 1385 bairro bandeirantes <br>Numero suporte: +55 11 94175-6988</div>
+        </div>
+        <div class="teladeifo2">Site feito por: SpectroTec <br> <a href="efefffefwe">faça uma visita</a></div>
+    </footer>
+</body>
+</html>

@@ -1,0 +1,39 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+
+body{
+    overflow: hidden;
+    background-image: url(fundodetala.jpg);
+}
+
+
+
+header .btvoltar{
+    position: absolute;
+    width: 6%;
+    height: 80px;
+    /* background-color: aliceblue; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    left: 30px;
+    top: 10px;
+    color: #000000;
+}
+
+.cardapio{
+    position: relative;
+    width: 530px;
+    height: 750px;
+    /* border: 4px dotted #8f0202; */
+    background-image: url(cardapio.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    top: 370px;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}

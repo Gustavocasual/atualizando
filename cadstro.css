@@ -1,0 +1,207 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body{
+ overflow-x: hidden;
+ overflow: hidden;
+ background-image: url(fundodetala.jpg);
+ background-repeat: no-repeat;
+ background-size: cover;
+}
+
+main{                                                   
+    /* border: 2px solid rgb(255, 102, 0); */
+
+}
+
+.teladecadastro{
+    position: relative;
+    width: 60%;
+    height: 650px;
+    /* border: 2px solid red; */
+    top:370px;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color: #ffffff51;
+    border-radius: 12px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    overflow: hidden;
+    box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    
+}
+
+@media (min-width:320px) and (max-width:540px){
+    .teladecadastro{
+        position: relative;
+        width: 100vw;
+        height: 710px;
+        /* border: 2px solid red; */
+        top:340px;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        background-color: #000000;
+        border-radius: 12px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);
+        
+    }
+    
+}
+
+.logo{
+    position: absolute;
+    left: 20px;
+    width: 400px;
+    height: 400px;
+    background-image: url(logodapastelariooffi.png);
+    
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+@media (min-width:320px) and (max-width:540px){
+    
+.logo{
+    position: absolute;
+    left: 20px;
+    width: 400px;
+    height: 400px;
+    background-image: url(logodapastelariooffi.png);
+    display: none;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+}
+.telauser{
+    position: absolute;
+    width: 50%;
+    height: 670px;
+    background-color: #a82011;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+@media (min-width:320px) and (max-width:540px){
+    .telauser{
+        position: absolute;
+        width: 100%;
+        height: 710px;
+        background-color: #a82011;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        background-image: url(fundodetala.jpg);
+        background-size: cover;
+        
+    }
+    
+    
+}
+
+input{
+    position: relative;
+    width: 90%;
+    height: 45px;
+    border: none;
+    outline: none;
+    background-color: #ffffff;
+    font-size: 15px;
+    color: #000000;
+    top: -20px;
+    margin-bottom: 15px;
+    border-radius: 9px;
+    /* box-shadow: 0px 0px 10px rgb(182, 182, 182); */
+    padding-left: 10px;
+}
+@media (min-width:320px) and (max-width:540px){
+    input{
+        position: relative;
+        width: 90%;
+        height: 45px;
+        border: none;
+        outline: none;
+        background-color: #ffffff;
+        font-size: 15px;
+        color: #000000;
+        top: -35px;
+        margin-bottom: 15px;
+        border-radius: 9px;
+        /* box-shadow: 0px 0px 10px rgb(182, 182, 182); */
+        padding-left: 10px;
+    }
+    
+}
+
+.txt{
+    position: relative;
+    color: #ffffff;
+    font-size: 20px;
+    top: -30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+@media (min-width:320px) and (max-width:540px){
+    
+.txt{
+    position: relative;
+    color: #ffffff;
+    font-size: 20px;
+    top: -45px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+    
+}
+.criarfomulariodouser{
+    position: absolute;
+    top: 90%;
+    background-color: #ffffff;
+    width: 40%;
+    height: 50px;
+    font-size: 20px;
+    color: #000000;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border: none;
+    border-radius: 40px;
+    /* box-shadow: 0px 0px 10px gray; */
+    
+}
+
+.criarfomulariodouser:hover{
+    background-color: rgb(148, 243, 6);
+    color: #ffffff;
+}
+
+@media (min-width:320px) and (max-width:540px){
+    .criarfomulariodouser{
+        position: absolute;
+        top: 85%;
+        background-color: #ffffff;
+        width: 40%;
+        height: 50px;
+        font-size: 20px;
+        color: #000000;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        border: none;
+        border-radius: 40px;
+        box-shadow: 0px 0px 10px gray;
+        
+    }
+    
+    .criarfomulariodouser:hover{
+        background-color: rgb(148, 243, 6);
+        color: #ffffff;
+    }
+    
+        
+}
